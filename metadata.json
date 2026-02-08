@@ -1,0 +1,7 @@
+{
+  "name": "FitMatch - Your Local Fitness Community",
+  "description": "A sleek, low-friction social app to find local fitness partners, sports players, and gym buddies using AI-powered matching.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
