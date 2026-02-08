@@ -99,7 +99,7 @@ const App: React.FC = () => {
 
   // Merge dummy users with cloud users, removing duplicates
   const displayUsers = useMemo(() => {
-    const userMap = new Map();
+    const userMap = new Map<string, User>(); 
     DUMMY_USERS.forEach(u => userMap.set(u.id, u));
     cloudUsers.forEach(u => {
       if (u.id !== currentUser?.id) userMap.set(u.id, u);
